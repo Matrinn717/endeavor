@@ -15,7 +15,7 @@ public:
             head = head->next;
         }
 
-        vector<int> vec;
+        vector<int> vec;//返回的是数组类型
         while(!st.empty()){
             vec.push_back(st.top());
             st.pop();
